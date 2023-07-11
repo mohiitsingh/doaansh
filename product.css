@@ -6,8 +6,8 @@
     /* background-color: red; */
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   
   .product-category {
@@ -20,7 +20,7 @@
   }
   
   .product-container {
-    padding: 0 4vw;
+    padding: 0 5vw;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -159,3 +159,36 @@
     margin-bottom: 10px;
   }
   
+
+  @media screen and (max-width: 425px) {
+    .product-category {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .product {
+      padding: 30px;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+    }
+
+    .product-card {
+      flex: 0 0 auto;
+      width: 250px;
+      height: 390px;
+      margin-right: 40px;
+      /* background-color: rebeccapurple; */
+      cursor: pointer;
+    }
+
+    .product-container {
+      padding: 0 15vw;
+    }
+    
+  }
+
+  @media screen and (max-width: 375px){
+    .product-container {
+      padding: 0 12vw;
+    }
+  }

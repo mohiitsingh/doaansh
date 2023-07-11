@@ -68,7 +68,8 @@ p {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    width: 80%;
+    width: 100%;
+    background-color: red;
     height: 410px;
     gap: 10px;
     border: 1px solid gray;

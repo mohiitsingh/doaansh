@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-footer li{
+footer li {
     list-style: none;
     font-weight: normal;
     font-size: 1rem;
     transition: 0.3s ease-in-out;
 }
 
-footer li:hover{
+footer li:hover {
     transform: translateY(-2px);
     color: rgb(46, 46, 46);
 }
 
-footer{
+footer {
     /* color: white; */
     background-color: whitesmoke;
 }
 
-.footer{
+.footer {
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -29,59 +29,104 @@ footer{
     padding: 2rem 0;
 }
 
-.footer-heading{
+.footer-heading {
     font-size: 1.2rem;
     font-weight: normal;
 }
 
-.foot{
+.foot {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     gap: 10px;
 }
 
-.foot-logo{
+.foot-logo {
     display: flex;
     gap: 20px;
 }
 
-.foot-payment-logo{
+.foot-payment-logo {
     display: flex;
     gap: 2px;
 }
 
-.footer-1{
+.footer-1 {
     width: 23%;
+    height: auto;
+    /* background-color: rgb(119, 255, 0); */
 }
 
-.footer-2{
+.footer-2 {
     width: 23%;
+    height: auto;
+    /* background-color: rgb(8, 0, 255); */
 }
 
-.footer-3{
+.footer-3 {
     width: 23%;
+    height: auto;
+    /* background-color: red; */
 }
 
-.footer-4{
+.footer-4 {
     width: 23%;
+    height: auto;
+    /* background-color: rgb(238, 255, 0); */
 }
 
-.footer-last{
+.footer-last {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.footer-last div p{
+.footer-last div p {
     font-size: 1rem;
 }
 
-.footer-last div p span{
+.footer-last div p span {
     font-weight: 500;
 }
 
-.foot-icon{
+.foot-icon {
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width: 850px) {
+    .footer-heading {
+        font-size: 1rem;
+    }
+
+    .footer li {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .footer-heading {
+        font-size: 1.2rem;
+        /* text-align: center; */
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .foot{
+        width: 80%;
+    }
+
+    .footer-last{
+        margin-top: 1rem;
+        /* background-color: aliceblue; */
+        flex-direction: column;
+        gap: 10px;
+    }
+
 }

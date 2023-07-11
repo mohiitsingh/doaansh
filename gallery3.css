@@ -11,14 +11,16 @@
   .wrapper1{
     /* margin-top: 2; */
     /* background-color: red; */
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
+    width: 90%;
+    /* background-color: rebeccapurple; */
+    margin: 0 auto;
   }
   
   .wrapper1 h1{
     font-weight: normal;
     margin-bottom: 3rem;
     border-bottom: 1px solid black;
-    margin-left: 4.5rem;
   }
 
   
@@ -26,8 +28,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: redj;
-    width: 90%;
     margin: 0 auto;
   }
   
@@ -81,3 +81,23 @@
     opacity: 1;
     transform: scale(1.03);
   }  
+
+  @media screen and (max-width: 425px) {
+    .wrapper1 h1{
+      font-weight: normal;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid black;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .card {
+      width:47%;
+      position:relative;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      /* margin: o auto; */
+    }
+    
+  }
