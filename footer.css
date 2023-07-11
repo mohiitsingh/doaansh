@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-li{
+footer li{
     list-style: none;
     font-weight: normal;
     font-size: 1rem;
     transition: 0.3s ease-in-out;
 }
 
-li:hover{
+footer li:hover{
     transform: translateY(-2px);
     color: rgb(46, 46, 46);
 }
@@ -34,19 +34,19 @@ footer{
     font-weight: normal;
 }
 
-.f{
+.foot{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 10px;
 }
 
-.f-logo{
+.foot-logo{
     display: flex;
     gap: 20px;
 }
 
-.f-payment-logo{
+.foot-payment-logo{
     display: flex;
     gap: 2px;
 }
@@ -81,7 +81,7 @@ footer{
     font-weight: 500;
 }
 
-.fa-icon{
+.foot-icon{
     display: flex;
     gap: 10px;
 }

@@ -139,10 +139,14 @@ nav .wrapper {
     color: black;
     font-size: 15px;
     display: block;
+    cursor: pointer;
 }
 
 .row .mega-links li a:hover {
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    /* color: rebeccapurple; */
+    color: #3A3B3C;
+    transform: translateY(-2px);
 }
 
 .wrapper .btn {
@@ -286,18 +290,18 @@ nav input {
     display: none;
 }
 
-.body-text {
+/* .body-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-}
+} */
 
-.body-text div {
+/* .body-text div {
     font-weight: 600;
-}
+} */
 
 
 @media screen and (max-width: 834px) {

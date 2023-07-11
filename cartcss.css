@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+nav{
+    height: 80px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.line{
+    /* height: 80%; */
+    /* width: 100px; */
+    width: 1px;
+    color: black;
+}
+
+
+.container {
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    /* padding: 2rem; */
+    height: 100vh;
+}
+
+.container1 {
+    width: 50%;
+    /* background-color: red; */
+    /* padding: 0 4rem; */
+    padding: 0 2rem 0 6rem;
+}
+
+.container1 h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+
+.container1 div,
+p {
+    padding-bottom: 10px;
+}
+
+.card_div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 80%;
+    height: 410px;
+    gap: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 1rem ;
+
+}
+
+.card {
+    /* width: 100%; */
+    display: flex;
+    padding: 1rem;
+    gap: 30px;
+    /* background-color: red; */
+    height: 120px;
+}
+
+
+.card div img {
+    border: 1px solid grey;
+    border-radius: 9px;
+}
+
+.desc {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    gap: 10px;
+    /* background-color: red; */
+    /* padding: 1rem; */
+}
+
+.desc div p{
+    font-weight: bold;
+}
+
+.p{
+    width: 260px;
+    display: flex;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+}
+
+.p span{
+    font-weight: bold;
+    color: grey;
+}
+
+.sub{
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: normal;
+}
+
+.shipping{
+    /* background-color: aqua; */
+    /* width: 80%; */
+    margin-top: 1rem;
+}
+
+.shipping h3{
+    margin-bottom: 0.5rem;
+}
+
+.company{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    width: 80%;
+    /* margin-top: 10px; */
+    padding-top: 4px;
+    border-radius: 8px;
+}
+
+.company-logo{
+    /* margin-top: 10px; */
+    background-color: white;
+    width: 80px;
+    padding: 1rem;
+    border: 0.1px solid transparent;
+}
+
+.company div label{
+    font-weight: bold;
+}
+
+
+.company-input input[type="radio"]{
+    /* width: 100%; */
+    accent-color: black;
+    border: 0px;
+    height: 19px;
+    width: 19px;
+}
+
+
+
+.container2 {
+    width: 50%;
+    padding: 0 4rem;
+    margin: 0 auto;
+    background-color: rgba(240, 248, 255, 0.46);
+}
+
+.container2 h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    margin-bottom: 10px;
+}
+
+
+
+.container3{
+    /* background-color: red; */
+    width: 80%;
+    /* margin: 0 auto; */
+}
+
+.vat-div{
+    padding-top: 5px;
+}
