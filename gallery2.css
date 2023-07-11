@@ -59,6 +59,34 @@ body{
     grid-row: span 2;
 }
 
+@media screen and (max-width: 834px) {
+    #box-1{
+        grid-row: span 2;
+        grid-column: span 1;
+    }
+    
+    #box-2{
+        grid-row: span 6;
+        grid-column: span 4;
+    }
+
+    #box-3{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    
+    #box-4{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    
+    #box-5{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+}
+
 
 @media screen and (max-width: 425px) {
     #box-1{
