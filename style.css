@@ -242,6 +242,8 @@ nav{
         display: none;
     }
 
+    
+
     .image-grid {
         grid-template-columns: repeat(6, 1fr);
     }
@@ -260,13 +262,5 @@ nav{
         grid-template-columns: 1fr;
     }
 
-
-    .navbar2{
-        /* position: absolute; */
-    }
-
-    .wrapper .nav-links {
-        /* flex-direction: column; */
-    }
 
 }

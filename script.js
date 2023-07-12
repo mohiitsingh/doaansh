@@ -103,12 +103,13 @@ productContainers.forEach((item, i) => {
 
 
 //  ====================== hamburger toggle ==========================
-const toggleButton = document.querySelector("#nav-toggle");
+// const toggleButton = document.querySelector("#nav-toggle");
 // const navLinks = document.getElementById('nav-links');
+const toggleButton = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.navbar2');
 
-
-toggleButton.addEventListener('click',() => {
+toggleButton.addEventListener('click',(e) => {
+  e.preventDefault();
     navLinks.classList.toggle('active');
-    // console.log("object");
+    console.log("object");
 })
