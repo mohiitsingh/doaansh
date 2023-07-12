@@ -109,7 +109,7 @@ const toggleButton = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.navbar2');
 
 toggleButton.addEventListener('click',(e) => {
-  e.preventDefault();
+    e.preventDefault();
     navLinks.classList.toggle('active');
     console.log("object");
 })
