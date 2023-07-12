@@ -16,6 +16,8 @@ a{
     display: flex;
     margin-top: 20px;
     padding: 40px 80px;
+    /* gap: 20px; */
+    /* background-color: rebeccapurple; */
 }
 
 #prodetails .single-pro-image {
@@ -108,66 +110,53 @@ a{
     color: #088178;
 }
 
-/* .pro-container{
-    background-color: red;
-    flex-wrap: nowrap;
-} */
-
-
-.product-container {
-    display: flex;
-    padding-top: 20px;
-    overflow: hidden;
-    gap: 20px;
-}
-
-.product-container2{
-    display: none;
-}
-
-
-.pro {
-    animation: scroll 15s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
+@media screen and (max-width:834px) {
+    #prodetails{
+        /* background-color: rebeccapurple; */
+        padding: 1rem;
     }
 
-    100% {
-        transform: translateX(-100%);
+    #prodetails .single-pro-details {
+        width: 50%;
+        /* padding-top: 30px; */
+        background-color: whitesmoke;
+        padding: 0px;
     }
+    
+    #prodetails .single-pro-details h4 {
+        padding: 0px 0 20px 0;
+    }
+    
+    #prodetails .single-pro-details h2 {
+        font-size: 26px;
+    }
+    
+    #prodetails .single-pro-details select {
+        display: block;
+        padding: 10px 13px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    
+
 }
-
-
 
 @media screen and (max-width: 786px) {
     #prodetails {
         flex-direction: column;
         align-items: center;
-    }
-
-
-
-    #prodetails .single-pro-image {
-        width: 80%;
-        margin-right: 50px;
-    }
-
-    .product-container{
-        width: 100%;
+        gap: 10px;
+        /* background-color: rebeccapurple; */
     }
 
     #prodetails .single-pro-details {
         width: 100%;
         margin-right: 0;
-        /* margin-left: 50px; */
+        padding: 2rem 4rem;
     }
 
-    #prodetails .single-pro-details select {
-        margin-top: 20px;
-    }
+    
 
 }
 
@@ -176,28 +165,85 @@ a{
         padding: 20px;
     }
 
+    .single-pro-details{
+        background-color: red;
+    }
+
     #prodetails .single-pro-details h4 {
         padding: 10px 0 14px 0;
+        font-size: 1.5rem;
     }
 
     #prodetails .single-pro-details h2 {
-        font-size: 23px;
+        font-size: 1rem;
     }
 
-    .product-container{
-        display: none;
-    }
 
     .product-container2{
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: red;
     }
     
     .pro{
         animation: none;
     }
 
+    /* hdkadf */
+    #prodetails .single-pro-details select {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+    
+    #prodetails .single-pro-details option:hover {
+        background-color: #088179c2;
+        color: white;
+    }
+    
+    #prodetails .single-pro-details input {
+        width: 40px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 14px;
+        margin-right: 10px;
+        /* margin-left: 20px; */
+    }
+    
+    #prodetails .single-pro-details input:focus {
+        outline: none;
+    }
+    
+    #prodetails .single-pro-details span {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    
+    .normal {
+        /* width: 50px; */
+        /* height: 47px; */
+        height: 40px;
+        padding: 0 20px;
+        background-color: #088178;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 5px;
+        transition: 0.2s ease-in-out;
+    }
+    
+    
+    
+    .normal:hover {
+        background-color: #fff;
+        color: #088178;
+        border: 0.1px solid #088178;
+    }
+    
+    .normal:hover a{
+        color: #088178;
+    }
     
 }
 
