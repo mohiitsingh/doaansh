@@ -14,7 +14,7 @@
  .carousel_inner{
     width: 100%;
     overflow: hidden;
-    
+    cursor: pointer;
  }
  
  .carousel_inner::after{

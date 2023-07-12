@@ -133,6 +133,7 @@ nav{
 /* ***************************** BANNER 2 ********************888 */
 .banner2 {
     margin: 0.8rem 0;
+    cursor: pointer;
 }
 
 
@@ -165,6 +166,7 @@ nav{
     position: relative;
     display: inline-block;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .image-item.large {
@@ -210,7 +212,36 @@ nav{
     grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width: 834px) {
+    .nav-1 {
+        font-size: 1.1rem;
+    }
+
+    .nav-2 img{
+        width: 150px;
+        height: 60px;
+    }
+}
+
 @media screen and (max-width: 425px) {
+    .hamburger{
+        margin-left: 15px;
+        display: block;
+    }
+
+    .nav-1{
+        display: none;
+    }
+
+    .nav-2 img{
+        width: 120px;
+        height: 45px;
+    }
+
+    .search sup{
+        display: none;
+    }
+
     .image-grid {
         grid-template-columns: repeat(6, 1fr);
     }
@@ -228,4 +259,14 @@ nav{
     .gallery{
         grid-template-columns: 1fr;
     }
+
+
+    .navbar2{
+        /* position: absolute; */
+    }
+
+    .wrapper .nav-links {
+        /* flex-direction: column; */
+    }
+
 }

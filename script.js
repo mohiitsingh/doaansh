@@ -100,3 +100,15 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+
+//  ====================== hamburger toggle ==========================
+const toggleButton = document.querySelector("#nav-toggle");
+// const navLinks = document.getElementById('nav-links');
+const navLinks = document.querySelector('.navbar2');
+
+
+toggleButton.addEventListener('click',() => {
+    navLinks.classList.toggle('active');
+    // console.log("object");
+})
