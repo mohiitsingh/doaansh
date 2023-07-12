@@ -113,3 +113,6 @@ toggleButton.addEventListener('click',(e) => {
     navLinks.classList.toggle('active');
     console.log("object");
 })
+
+// =================== TOP =========================
+window.scroll

@@ -49,6 +49,22 @@ li{
     list-style: none;
 }
 
+.top{
+    position: fixed;
+    background-color: rgb(14, 12, 12);
+    bottom: 3%;
+    right: 1%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.top img{
+    /* padding: 0.1rem; */
+    margin: 1rem 1.2rem;
+    transform: rotate(270deg);
+}
 
 .banner-div{
     width: 100%;
@@ -224,6 +240,19 @@ nav{
 }
 
 @media screen and (max-width: 425px) {
+    .top{
+        bottom: 3%;
+        right: 1%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        z-index: 100;
+    }
+    
+    .top img{
+        margin: 0.5rem 0.9rem;
+    }
+
     .hamburger{
         margin-left: 15px;
         display: block;
