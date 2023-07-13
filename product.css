@@ -158,6 +158,16 @@
     grid-column: span 2;
     margin-bottom: 10px;
   }
+
+  @media screen and (max-width: 834px) {
+    .product-container {
+      padding: 0 15vw;
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      /* background-color: red; */
+    }
+  }
   
 
   @media screen and (max-width: 425px) {
@@ -176,13 +186,9 @@
       flex: 0 0 auto;
       width: 250px;
       height: 390px;
-      margin-right: 40px;
+      margin-right: 80px;
       /* background-color: rebeccapurple; */
       cursor: pointer;
-    }
-
-    .product-container {
-      padding: 0 15vw;
     }
     
   }

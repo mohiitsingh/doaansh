@@ -44,10 +44,10 @@ window.addEventListener("load", () => {
  }
 
  //Nav scroll
-window.addEventListener('scroll',() =>{
-    document.querySelector('.left').classList.toggle('window-scroll',window.scrollY > 100);
-    document.querySelector('.right').classList.toggle('window-scroll-right',window.scrollY > 100);
-})
+// window.addEventListener('scroll',() =>{
+//     document.querySelector('.left').classList.toggle('window-scroll',window.scrollY > 100);
+//     document.querySelector('.right').classList.toggle('window-scroll-right',window.scrollY > 100);
+// })
 
  //hover menu
  var hideTimeout;
@@ -68,20 +68,20 @@ window.addEventListener('scroll',() =>{
    }, 200);
  }
  
- function cancelHideTimeout() {
-   clearTimeout(hideTimeout);
- }
+//  function cancelHideTimeout() {
+//    clearTimeout(hideTimeout);
+//  }
  
- function setHideTimeout() {
-   hideTimeout = setTimeout(function() {
-     var tabcontents = document.getElementsByClassName("tabcontent");
-     for (var i = 0; i < tabcontents.length; i++) {
-       if (!tabcontents[i].matches(":hover")) {
-         tabcontents[i].style.display = "none";
-       }
-     }
-   }, 200);
- }
+//  function setHideTimeout() {
+//    hideTimeout = setTimeout(function() {
+//      var tabcontents = document.getElementsByClassName("tabcontent");
+//      for (var i = 0; i < tabcontents.length; i++) {
+//        if (!tabcontents[i].matches(":hover")) {
+//          tabcontents[i].style.display = "none";
+//        }
+//      }
+//    }, 200);
+//  }
  
 // ======================= PRODUCTS ===============================
 const productContainers = [...document.querySelectorAll('.product-container')];
@@ -106,13 +106,12 @@ productContainers.forEach((item, i) => {
 // const toggleButton = document.querySelector("#nav-toggle");
 // const navLinks = document.getElementById('nav-links');
 const toggleButton = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.navbar2');
+const navLinks = document.querySelector('.menu-bar');
 
 toggleButton.addEventListener('click',(e) => {
     e.preventDefault();
-    navLinks.classList.toggle('active');
+    navLinks.classList.toggle('menu-bar-active');
     console.log("object");
 })
 
 // =================== TOP =========================
-window.scroll

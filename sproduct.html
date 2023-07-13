@@ -11,7 +11,8 @@
 
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
+    <link rel="stylesheet" href="navTest.css">
     <link rel="stylesheet" href="caraousel.css">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="gallery2.css">
@@ -35,8 +36,8 @@
 
     <!-- ==================== NAVBAR ================= -->
 
-    <nav class="navbar1" >
-        <div class="navbar_container1" style="background-color: whitesmoke">
+    <nav class="navbar1"  >
+        <div class="navbar_container1">
             <div class="hamburger" id="nav-toggle">
                 <a href="">
                     <img src="./icon/bars-solid.svg" alt="" width="20px" height="20px">
@@ -85,7 +86,37 @@
                 </div>
             </div>
         </div>
-        <section class="navbar2">
+        <div class="menu-bar" >
+            <ul >
+                <li class="active" ><a href="" style="color: black;">Home</a></li>
+                <li class="flex"><a href="" style="color: black;">About Us</a>
+                    <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="" style="color: black;">Home</a></li>
+                            <li><a href="" style="color: black;">Home2</a></li>
+                            <li><a href="" style="color: black;">Home3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="" style="color: black;">Services</a></li>
+                <li><a href="" style="color: black;">Clients</a></li>
+                <li><a href="" style="color: black;">Investor</a></li>
+                <li><a href="" style="color: black;">Training</a></li>
+                <li><a href="" style="color: black;">Pricing</a>
+                    <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="" style="color: black;">Homeadf</a></li>
+                            <li><a href="" style="color: black;">Home2</a></li>
+                            <li><a href="" style="color: black;">Home3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="" style="color: black;">Contact</a></li>
+            </ul>
+        </div>
+        <!-- <section class="navbar2">
           <div class="wrapper">
             <ul class="nav-links">
               <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
@@ -159,7 +190,7 @@
             </ul>
             <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
           </div>
-      </section>
+      </section> -->
     </nav>
 
     <section id="prodetails">

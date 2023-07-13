@@ -6,7 +6,8 @@
     <title>Doaansh</title>
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
+    <link rel="stylesheet" href="navTest.css">
     <link rel="stylesheet" href="caraousel.css">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="gallery2.css">
@@ -80,81 +81,36 @@
                 </div>
             </div>
         </div>
-        <section class="navbar2">
-          <div class="wrapper">
-            <ul class="nav-links">
-              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-              
-              <li><a href="#newArrival">New Arrival</a></li>
-              <li>
-                  <a href="#" class="desktop-item">Accessories
-                    <img class="angle-down" src="./icon/angle-down-solid.svg"alt="" width="10px">
-                  </a>
-                  <input type="checkbox" id="showDrop">
-                  <label for="showDrop" class="mobile-item">Suit Menu</label>
-                  <ul class="drop-menu">
-                    <li><a href="#">Suit menu 1</a></li>
-                    <li><a href="#">Suit menu 2</a></li>
-                    <li><a href="#">Suit menu 3</a></li>
-                    <li><a href="#">Suit menu 4</a></li>
-                  </ul>
+        <div class="menu-bar">
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li class="flex"><a href="">About Us</a>
+                    <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home2</a></li>
+                            <li><a href="">Home3</a></li>
+                        </ul>
+                    </div>
                 </li>
-              <li><a href="#wrapper1">Designer</a></li>
-              <li><a href="#">Women</a></li>
-              <li><a href="#">Tailored Wear</a></li>
-              
-              <li>
-                <a href="#" class="desktop-item">Saree Menu
-                  <img class="angle-down" src="./icon/angle-down-solid.svg"alt="" width="10px">
-                </a>
-                <input type="checkbox" id="showMega" >
-                <label for="showMega" class="mobile-item">Saree Menu</label>
-                <div class="mega-box" >
-                  <div class="content">
-                    <div class="row">
-                      <img src="./assets/img/asset 1.webp" alt="">
+                <li><a href="">Services</a></li>
+                <li><a href="">Clients</a></li>
+                <li><a href="">Investor</a></li>
+                <li><a href="">Training</a></li>
+                <li><a href="">Pricing</a>
+                    <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="">Homeadf</a></li>
+                            <li><a href="">Home2</a></li>
+                            <li><a href="">Home3</a></li>
+                        </ul>
                     </div>
-                    <div class="row" >
-                      <header>Kurti </header>
-                      <ul class="mega-links">
-                        <li><a href="#">Kurti</a></li>
-                        <li><a href="#">Kurti</a></li>
-                        <li><a href="#">Kurti </a></li>
-                        <li><a href="#">Kurti </a></li>
-                        <li><a href="#">Kurti </a></li>
-                        <li><a href="#">Kurti </a></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <header>Kurti Kurti</header>
-                      <ul class="mega-links">
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <header>leggie </header>
-                      <ul class="mega-links">
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#"> leggie</a></li>
-                        <li><a href="#"> leggie</a></li>
-                        <li><a href="#"> leggie</a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li><a href="#">Blog</a></li>
+                </li>
+                <li><a href="">Contact</a></li>
             </ul>
-            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-          </div>
-      </section>
+        </div>
     </nav>
 
 
@@ -314,6 +270,42 @@
               </div>
           </div>
           <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹201</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹210</span>
+            </div>
+        </div>
+          <div class="product-card" onclick="window.location.href='sproduct.html';">
               <div class="product-image">
                   
                   <img src="./Assets1/product_06b.jpg" class="product-thumb" alt="">
@@ -337,6 +329,78 @@
                   <span class="price">₹320</span>
               </div>
           </div>
+          <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹201</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹210</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹201</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹210</span>
+            </div>
+        </div>
           
           
       </div>
@@ -392,6 +456,42 @@
                   <span class="price">₹399</span>
               </div>
           </div>
+          <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹201</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹210</span>
+            </div>
+        </div>
           <div class="product-card" onclick="window.location.href='sproduct.html';">
               <div class="product-image">
                   
@@ -464,6 +564,42 @@
                   <span class="price">₹210</span>
               </div>
           </div>
+          <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹201</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+        <div class="product-card" onclick="window.location.href='sproduct.html';">
+            <div class="product-image">
+                
+                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+                
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">₹210</span>
+            </div>
+        </div>
           <div class="product-card" onclick="window.location.href='sproduct.html';">
               <div class="product-image">
                   
