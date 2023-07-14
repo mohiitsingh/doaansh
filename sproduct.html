@@ -9,10 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <link rel='stylesheet' id='bootstrap-css'
+        href='https://doaansh.in/wp-content/themes/basel/css/bootstrap.min.css?ver=5.4.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='basel-style-css'
+        href='https://doaansh.in/wp-content/themes/basel/style.min.css?ver=5.4.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_font_awesome_5_shims-css'
+        href='https://doaansh.in/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.9.0'
+        type='text/css' media='all' />
+    <!--  -->
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="navbar.css"> -->
-    <link rel="stylesheet" href="navTest.css">
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="caraousel.css">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="gallery2.css">
@@ -22,175 +33,133 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="footer.css">
 
+    <style data-type="basel-dynamic-css">
+        .footer-container {
+    /* background-color: rgb(191, 19, 19); */
+    background-color: aliceblue;
+    color: black;
+}
+
+</style>
     
 </head>
 
 <body>
 
      <!-- banner -->
-     <div class="banner-div">
+     <!-- <div class="banner-div">
 
         <a href="">Login as a Designer</a>
         <p>| Free shipping above ₹9000</p>
-    </div>
+    </div> -->
 
     <!-- ==================== NAVBAR ================= -->
 
-    <nav class="navbar1"  >
+    <nav class="navbar1">
         <div class="navbar_container1">
             <div class="hamburger" id="nav-toggle">
                 <a href="">
                     <img src="./icon/bars-solid.svg" alt="" width="20px" height="20px">
                 </a>
             </div>
-            <div class="nav-1">
-                <div>
-                    <a href="">
-                        <img src="./icon/phone-solid.svg" alt="" width="20px" height="20px">
-                    </a>
-                </div>
-                <div>
-                    <a href="tel:+91 98222872888" style="color: black;">+91 98222872888</a>
-                </div>
-            </div>
             <div class="nav-2">
-                <img src="./assets/symbol (1).png" alt="">
+                <img src="./assets/doansh png.png" alt="">
             </div>
             <div class="nav-3">
                 <div class="search">
                     <a href="">
-                        <img src="./icon/magnifying-glass-solid.svg" alt="" width="20px" height="20px">
+                        <!-- <img src="./icon/magnifying-glass-solid.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-search" style="color: black;"></i>
                     </a>
-                    <sup>Search</sup>
+                    <!-- <sup>Search</sup> -->
                 </div>
 
 
                 <div>
                     <a href="">
-                        <img src="./icon/heart-regular.svg" alt="" width="20px" height="20px">
-                    </a>
-                </div>
-
-
-                <div>
-                    <a href="">
-                        <img src="./icon/user-regular.svg" alt="" width="20px" height="20px">
+                        <!-- <img src="./icon/heart-regular.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-heart" style="color: black;"></i>
                     </a>
                 </div>
 
 
                 <div>
                     <a href="">
-                        <img src="./icon/cart-shopping-solid.svg" alt="" width="20px" height="20px">
+                        <!-- <img src="./icon/user-regular.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-user" style="color: black;"></i>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a href="">
+                        <!-- <img src="./icon/cart-shopping-solid.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-shopping-cart" style="color: black;"></i>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="menu-bar" >
-            <ul >
-                <li class="active" ><a href="" style="color: black;">Home</a></li>
-                <li class="flex"><a href="" style="color: black;">About Us</a>
+        <div class="nav-container">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li>
+                    <a href="">About Us <img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
+                    <ul class="dropdown">
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">css</a></li>
+                        <li><a href="">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">About Us <img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
+                    <ul class="dropdown">
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">css</a></li>
+                        <li><a href="">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="menu-bar">
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li class="flex"><a href="">About Us</a>
                     <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
                     <div class="sub-menu-1">
                         <ul>
-                            <li><a href="" style="color: black;">Home</a></li>
-                            <li><a href="" style="color: black;">Home2</a></li>
-                            <li><a href="" style="color: black;">Home3</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home2</a></li>
+                            <li><a href="">Home3</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="" style="color: black;">Services</a></li>
-                <li><a href="" style="color: black;">Clients</a></li>
-                <li><a href="" style="color: black;">Investor</a></li>
-                <li><a href="" style="color: black;">Training</a></li>
-                <li><a href="" style="color: black;">Pricing</a>
+                <li><a href="">Clients</a></li>
+                <li><a href="">Investor</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Training</a></li>
+                <li><a href="">Pricing</a>
                     <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
                     <div class="sub-menu-2">
                         <ul>
-                            <li><a href="" style="color: black;">Homeadf</a></li>
-                            <li><a href="" style="color: black;">Home2</a></li>
-                            <li><a href="" style="color: black;">Home3</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home2</a></li>
+                            <li><a href="">Home3</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="" style="color: black;">Contact</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-        </div>
-        <!-- <section class="navbar2">
-          <div class="wrapper">
-            <ul class="nav-links">
-              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-              
-              <li><a href="#">New Arrival</a></li>
-              <li>
-                  <a href="#" class="desktop-item">Accessories
-                    <img class="angle-down" src="./icon/angle-down-solid.svg"alt="" width="10px">
-                  </a>
-                  <input type="checkbox" id="showDrop">
-                  <label for="showDrop" class="mobile-item">Suit Menu</label>
-                  <ul class="drop-menu">
-                    <li><a href="#">Suit menu 1</a></li>
-                    <li><a href="#">Suit menu 2</a></li>
-                    <li><a href="#">Suit menu 3</a></li>
-                    <li><a href="#">Suit menu 4</a></li>
-                  </ul>
-                </li>
-              <li><a href="#">Designer</a></li>
-              <li><a href="#">Women</a></li>
-              <li><a href="#">Tailored Wear</a></li>
-              
-              <li>
-                <a href="#" class="desktop-item">Saree Menu
-                  <img class="angle-down" src="./icon/angle-down-solid.svg"alt="" width="10px">
-                </a>
-                <input type="checkbox" id="showMega" >
-                <label for="showMega" class="mobile-item">Saree Menu</label>
-                <div class="mega-box" >
-                  <div class="content">
-                    <div class="row">
-                      <img src="./assets/img/asset 1.webp" alt="">
-                    </div>
-                    <div class="row" >
-                      <header>Kurti </header>
-                      <ul class="mega-links">
-                        <li><a href="#">Kurti</a></li>
-                        <li><a href="#">Kurti</a></li>
-                        <li><a href="#">Kurti </a></li>
-                        <li><a href="#">Kurti </a></li>
-                        <li><a href="#">Kurti </a></li>
-                        <li><a href="#">Kurti </a></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <header>Kurti Kurti</header>
-                      <ul class="mega-links">
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <header>leggie </header>
-                      <ul class="mega-links">
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#"> leggie</a></li>
-                        <li><a href="#"> leggie</a></li>
-                        <li><a href="#"> leggie</a></li>
-                        <li><a href="#">leggie </a></li>
-                        <li><a href="#">leggie </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-          </div>
-      </section> -->
+        </div> -->
     </nav>
 
     <section id="prodetails">
@@ -376,7 +345,7 @@
       </div>
     </section>
 
-    <footer>
+    <!-- <footer>
         <div class="footer">
             <div class="footer-1 foot" >
                 <div>
@@ -471,6 +440,194 @@
                 </div>
             </div>
         </div>>
+    </footer> -->
+
+    <footer >
+        <div class="website-wrapper" >
+            <footer class="footer-container ">
+                <!-- color-scheme-light -->
+                <div class="container main-footer">
+                    <aside class="footer-sidebar widget-area row" role="">
+                        <div class=" footer-column-1 col-md-12 col-sm-12">
+                            <!-- footer-column footer-column-1 col-md-12 col-sm-12"> -->
+                            <div id="text-2" class="footer-widget  widget_text">
+                                <div class="textwidget" >
+                                    <p style="text-align:center;">
+                                        <img src="./assets/doansh png.png"
+                                            alt="Doaansh" title="Doaansh" style="max-width:300px;" />
+                                    </p>
+                                    <ul style="background-color: transparent;"
+                                        class="social-icons text-center icons-design-default icons-size-default social-share ">
+                                        <li>
+                                            <a rel=""
+                                                href=""
+                                                target="_blank" class="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel=""
+                                                href="" target="_blank"
+                                                >
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel=""
+                                                href="" >
+                                                <i class="fa fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel=""
+                                                href="" >
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel=""
+                                                href=""  >
+                                                <i class="fa fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel="" href="" target="_blank" >
+                                                <i class="fa fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li class="social-tg">
+                                            <a rel=""
+                                                href="" target="_blank"
+                                                >
+                                                <i class="fa fa-telegram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-lg-block"></div>
+                        <div class="footer-column footer-column-2 col-md-2 col-sm-6">
+                            <div id="text-12" class="footer-widget  widget_text">
+                                <h5 class="widget-title">Company</h5>
+                                <div class="textwidget">
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="">Who we are</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Privacy Policy </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Terms &amp;Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column footer-column-3 col-md-2 col-sm-6">
+                            <div id="text-13" class="footer-widget  widget_text">
+                                <h5 class="widget-title">Service</h5>
+                                <div class="textwidget" >
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="#">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Track Order</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Return Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Exchange Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="footer-column footer-column-4 col-md-2 col-sm-6">
+                            <div id="text-14" class="footer-widget  widget_text">
+                                <h5 class="widget-title">links</h5>
+                                <div class="textwidget">
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="#">New Arrival</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Size Guide</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Latest News</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column footer-column-5 col-md-2 col-sm-6">
+                            <div id="text-15" class="footer-widget  widget_text">
+                                <h5 class="widget-title">Our Socials</h5>
+                                <div class="textwidget">
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="#">Instagram</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Facebook Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Twitter</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Pinterest</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column footer-column-6 col-md-4 col-sm-12" style="font-size: 16px;">
+                            <div id="text-16" class="footer-widget  widget_text">
+                                <h5 class="widget-title">About The Store</h5>
+                                <div class="textwidget">
+                                    <p>Doaansh is an online fashion store. Buy clothes and other accessories here online for
+                                        men and women. Choose from a wide range of original quirky designs. Free delivery,
+                                        Easy Return, Shop Now !!</p>
+                                    <div style="line-height: 2;">
+                                        <i class="fa fa-mobile"
+                                            style="width: 15px; text-align: center; margin-right: 4px; color: #f3eeee;"></i>
+                                        Phone &amp Whatsapp: (+91) 90000 00000<br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- .footer-sidebar -->
+                </div>
+                <div class="copyrights-wrapper copyrights-centered">
+                    <div class="container">
+                        <div class="min-footer">
+                            <div class="col-left">
+                                <p>
+                                    &copy;2023 <a href="">Doaansh</a>
+                                    . All rights reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </footer>
 
     <script>

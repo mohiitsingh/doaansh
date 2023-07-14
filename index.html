@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doaansh</title>
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <link rel='stylesheet' id='bootstrap-css'
+        href='https://doaansh.in/wp-content/themes/basel/css/bootstrap.min.css?ver=5.4.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='basel-style-css'
+        href='https://doaansh.in/wp-content/themes/basel/style.min.css?ver=5.4.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_font_awesome_5_shims-css'
+        href='https://doaansh.in/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.9.0'
+        type='text/css' media='all' />
+    <!--  -->
+    <!-- style sheet added -->
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="navbar.css"> -->
-    <link rel="stylesheet" href="navTest.css">
+    <!-- <link rel="stylesheet" href="navTest.css"> -->
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="caraousel.css">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="gallery2.css">
     <link rel="stylesheet" href="gallery3.css">
     <link rel="stylesheet" href="footer.css">
+
+    <style data-type="basel-dynamic-css">
+        .footer-container {
+    /* background-color: rgb(191, 19, 19); */
+    background-color: aliceblue;
+    color: black;
+}
+
+</style>
+
 </head>
+
 <body>
     <!-- top -->
     <div class="top">
@@ -21,67 +49,83 @@
             <img src="./icon/arrow.png" alt="" width="10px">
         </a>
     </div>
-    
-    <!-- banner -->
-    <div class="banner-div" id="top">
-
-        <a href="">Login as a Designer</a>
-        <p>| Free shipping above ₹9000</p>
-    </div>
 
     <!-- ==================== NAVBAR ================= -->
 
-    <nav class="navbar1" >
+    <nav class="navbar1">
         <div class="navbar_container1">
             <div class="hamburger" id="nav-toggle">
                 <a href="">
                     <img src="./icon/bars-solid.svg" alt="" width="20px" height="20px">
                 </a>
             </div>
-            <div class="nav-1">
-                <div>
-                    <a href="">
-                        <img src="./icon/phone-solid.svg" alt="" width="20px" height="20px">
-                    </a>
-                </div>
-                <div>
-                    <a href="tel:+91 98222872888">+91 98222872888</a>
-                </div>
-            </div>
             <div class="nav-2">
-                <img src="./assets/symbol (1).png" alt="">
+                <img src="./assets/doansh png.png" alt="">
             </div>
             <div class="nav-3">
                 <div class="search">
                     <a href="">
-                        <img src="./icon/magnifying-glass-solid.svg" alt="" width="20px" height="20px">
+                        <!-- <img src="./icon/magnifying-glass-solid.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-search"></i>
                     </a>
-                    <sup>Search</sup>
+                    <!-- <sup>Search</sup> -->
                 </div>
 
 
                 <div>
                     <a href="">
-                        <img src="./icon/heart-regular.svg" alt="" width="20px" height="20px">
-                    </a>
-                </div>
-
-
-                <div>
-                    <a href="">
-                        <img src="./icon/user-regular.svg" alt="" width="20px" height="20px">
+                        <!-- <img src="./icon/heart-regular.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-heart"></i>
                     </a>
                 </div>
 
 
                 <div>
                     <a href="">
-                        <img src="./icon/cart-shopping-solid.svg" alt="" width="20px" height="20px">
+                        <!-- <img src="./icon/user-regular.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a href="">
+                        <!-- <img src="./icon/cart-shopping-solid.svg" alt="" width="20px" height="20px"> -->
+                        <i class="fas fa-shopping-cart"></i>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="menu-bar">
+        <div class="nav-container">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li>
+                    <a href="">About Us <img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
+                    <ul class="dropdown">
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">css</a></li>
+                        <li><a href="">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">About Us <img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
+                    <ul class="dropdown">
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">css</a></li>
+                        <li><a href="">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="menu-bar">
             <ul>
                 <li class="active"><a href="">Home</a></li>
                 <li class="flex"><a href="">About Us</a>
@@ -104,7 +148,7 @@
                     <i><img src="./icon/arrow.png" alt="" width="6px" class="icon"></i>
                     <div class="sub-menu-2">
                         <ul>
-                            <li><a href="">Homeadf</a></li>
+                            <li><a href="">Home</a></li>
                             <li><a href="">Home2</a></li>
                             <li><a href="">Home3</a></li>
                         </ul>
@@ -112,531 +156,541 @@
                 </li>
                 <li><a href="">Contact</a></li>
             </ul>
-        </div>
+        </div> -->
     </nav>
 
 
     <div class="carousel">
-      <div class="carousel_inner">
-        <div class="carousel_item carousel_item__active">
-          <img src="./assets//img/asset 8.webp" alt="" class="carousel_img" onclick="window.location.href='sproduct.html';">
+        <div class="carousel_inner">
+            <div class="carousel_item carousel_item__active">
+                <img src="./assets/img/asset 8.webp" alt="" class="carousel_img"
+                    onclick="window.location.href='sproduct.html';">
+            </div>
+            <div class="carousel_item">
+                <img src="./assets/img/asset 9.jpeg" alt="" class="carousel_img"
+                    onclick="window.location.href='sproduct.html';">
+            </div>
+            <div class="carousel_item">
+                <img src="./assets/img/asset 10.jpeg" alt="" class="carousel_img"
+                    onclick="window.location.href='sproduct.html';">
+            </div>
         </div>
-        <div class="carousel_item">
-          <img src="./assets/img/asset 9.jpeg" alt="" class="carousel_img" onclick="window.location.href='sproduct.html';">
-        </div>
-        <div class="carousel_item">
-          <img src="./assets/img/asset 10.jpeg" alt="" class="carousel_img" onclick="window.location.href='sproduct.html';">
-        </div>
-      </div>
     </div>
 
     <div class="banner2" onclick="window.location.href='sproduct.html';">
-      <img src="assets/img/asset 11.jpeg" alt="">
+        <img src="assets/img/asset 11.jpeg" alt="">
     </div>
 
     <div class="shop-category">
-      <h2>Shop By Category</h2>
-      <hr>
-      <div class="image-grid">
-        <div class="image-item large">
-          <img src="https://www.theoutfitclub.com/assets/images/dressesimg2.webp" alt="Image 1" height="100%" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
+        <h2>Shop By Category</h2>
+        <hr>
+        <div class="image-grid">
+            <div class="image-item large">
+                <img src="https://www.theoutfitclub.com/assets/images/dressesimg2.webp" alt="Image 1" height="100%"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Dresses</div>
+            </div>
+            <div class="image-item small">
+                <img src="https://www.theoutfitclub.com/assets/images/jumpsuitsminimg1.webp" alt="Image 2"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Jumpsuits</div>
+            </div>
+            <div class="image-item small">
+                <img src="https://www.theoutfitclub.com/assets/images/kurta_setimg.webp" alt="Image 3"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Kurta Set</div>
+            </div>
+            <div class="image-item small">
+                <img src="https://www.theoutfitclub.com/assets/images/lounge_wearimg.webp" alt="Image 4"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Lounge Wear</div>
+            </div>
+            <div class="image-item small">
+                <img src="https://www.theoutfitclub.com/assets/images/cordsetimg1.webp" alt="Image 5"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Cord Set</div>
+            </div>
+            <div class="image-item small">
+                <img src="https://www.theoutfitclub.com/assets/images/shirts.webp" alt="Image 6"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Shirts</div>
+            </div>
+            <div class="image-item small">
+                <img src="https://www.theoutfitclub.com/assets/images/sareeimg.webp" alt="Image 7"
+                    onclick="window.location.href='sproduct.html';">
+                <div class="caption">Saree</div>
+            </div>
         </div>
-        <div class="image-item small">
-          <img src="https://www.theoutfitclub.com/assets/images/jumpsuitsminimg1.webp" alt="Image 2" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
-        </div>
-        <div class="image-item small">
-          <img src="https://www.theoutfitclub.com/assets/images/kurta_setimg.webp" alt="Image 3" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
-        </div>
-        <div class="image-item small">
-          <img src="https://www.theoutfitclub.com/assets/images/lounge_wearimg.webp" alt="Image 4" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
-        </div>
-        <div class="image-item small">
-          <img src="https://www.theoutfitclub.com/assets/images/cordsetimg1.webp" alt="Image 5" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
-        </div>
-        <div class="image-item small">
-          <img src="https://www.theoutfitclub.com/assets/images/shirts.webp" alt="Image 6" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
-        </div>
-        <div class="image-item small">
-          <img src="https://www.theoutfitclub.com/assets/images/sareeimg.webp" alt="Image 7" onclick="window.location.href='sproduct.html';">
-          <div class="caption">kurta</div>
-       </div>
-      </div>
-    
+
     </div>
 
-    <section class="product"> 
-      <h2 class="product-category">best selling</h2>
-      <button class="pre-btn"><img src="./icon/arrow.png" alt=""></button>
-      <button class="nxt-btn"><img src="./icon/arrow.png" alt=""></button>
-      <div class="product-container">
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹201</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹320</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹210</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_04.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹209</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_05.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹199</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_06.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹320</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_07.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹280</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_08.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short lidfadne about the cloth..</p>
-                  <span class="price">₹190</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                
+    <section class="product">
+        <h2 class="product-category">best selling</h2>
+        <button class="pre-btn"><img src="./icon/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="./icon/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
             </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹201</span>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
             </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_04.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹209</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_05.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹199</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_06.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_07.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹280</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_08.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short lidfadne about the cloth..</p>
+                    <span class="price">₹190</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_06b.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹120</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+
+
         </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹320</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹210</span>
-            </div>
-        </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_06b.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹120</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹320</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹201</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹320</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹210</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹201</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹320</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹210</span>
-            </div>
-        </div>
-          
-          
-      </div>
     </section>
-         
+
     <div class="gallery">
-      <div>
-        <img src="./assets/img/asset 29.webp" alt="">
-      </div>
-      <div>
-        <img src="./assets/img/asset 30.webp" alt="">
-      </div>
+        <div>
+            <img src="./assets/img/asset 29.webp" alt="">
+        </div>
+        <div>
+            <img src="./assets/img/asset 30.webp" alt="">
+        </div>
     </div>
 
-    <section class="product" id="newArrival"> 
-      <h2 class="product-category">What's New</h2>
-      <button class="pre-btn"><img src="./icon/arrow.png" alt=""></button>
-      <button class="nxt-btn"><img src="./icon/arrow.png" alt=""></button>
-      <div class="product-container">
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹199</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹290</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹399</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                
+    <section class="product" id="newArrival">
+        <h2 class="product-category">What's New</h2>
+        <button class="pre-btn"><img src="./icon/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="./icon/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹199</span>
+                </div>
             </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹201</span>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹290</span>
+                </div>
             </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹399</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_04.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹149</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_05.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹200</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_06.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹290</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_07.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_08.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short lidfadne about the cloth..</p>
+                    <span class="price">₹209</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_06b.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹320</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹210</span>
+                </div>
+            </div>
+            <div class="product-card" onclick="window.location.href='sproduct.html';">
+                <div class="product-image">
+
+                    <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
+
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">₹201</span>
+                </div>
+            </div>
+
+
         </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹320</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹210</span>
-            </div>
-        </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_04.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹149</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_05.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹200</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_06.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹290</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_07.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹320</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_08.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short lidfadne about the cloth..</p>
-                  <span class="price">₹209</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_06b.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹210</span>
-              </div>
-          </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹201</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_02.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹320</span>
-            </div>
-        </div>
-        <div class="product-card" onclick="window.location.href='sproduct.html';">
-            <div class="product-image">
-                
-                <img src="./Assets1/product_03.jpg" class="product-thumb" alt="">
-                
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">brand</h2>
-                <p class="product-short-description">a short line about the cloth..</p>
-                <span class="price">₹210</span>
-            </div>
-        </div>
-          <div class="product-card" onclick="window.location.href='sproduct.html';">
-              <div class="product-image">
-                  
-                  <img src="./Assets1/product_01.jpg" class="product-thumb" alt="">
-                  
-              </div>
-              <div class="product-info">
-                  <h2 class="product-brand">brand</h2>
-                  <p class="product-short-description">a short line about the cloth..</p>
-                  <span class="price">₹201</span>
-              </div>
-          </div>
-          
-          
-      </div>
     </section>
 
     <div class="wrapper1">
         <h1>Best Selling Designers</h1>
-        <div class="gallery3">       
+        <div class="gallery3">
             <figure class="card">
-              <img src="./Assets1/product_01.jpg" alt="">
-              <figcaption>Ouerated</figcaption>
+                <img src="./Assets1/product_01.jpg" alt="">
+                <figcaption>Ouerated</figcaption>
             </figure>
             <figure class="card">
-              <img src="./Assets1/product_02.jpg" alt="">
-              <figcaption>Koshue</figcaption>
+                <img src="./Assets1/product_02.jpg" alt="">
+                <figcaption>Koshue</figcaption>
             </figure>
             <figure class="card">
-              <img src="./Assets1/product_03.jpg" alt="">
-              <figcaption>The Closet</figcaption>
+                <img src="./Assets1/product_03.jpg" alt="">
+                <figcaption>The Closet</figcaption>
             </figure>
             <figure class="card">
-              <img src="./Assets1/product_05.jpg" alt="">
-              <figcaption>Arimi</figcaption>
+                <img src="./Assets1/product_05.jpg" alt="">
+                <figcaption>Arimi</figcaption>
             </figure>
         </div>
     </div>
@@ -654,27 +708,27 @@
 
     <div class="wrapper1" id="wrapper1">
         <h1>Best Selling Designers</h1>
-        <div class="gallery3">       
+        <div class="gallery3">
             <figure class="card">
-              <img src="./Assets1/product_05.jpg" alt="">
-              <figcaption>Ouerated</figcaption>
+                <img src="./Assets1/product_05.jpg" alt="">
+                <figcaption>Ouerated</figcaption>
             </figure>
             <figure class="card">
-              <img src="./Assets1/product_06.jpg" alt="">
-              <figcaption>Koshue</figcaption>
+                <img src="./Assets1/product_06.jpg" alt="">
+                <figcaption>Koshue</figcaption>
             </figure>
             <figure class="card">
-              <img src="./Assets1/product_08.jpg" alt="">
-              <figcaption>The Closet</figcaption>
+                <img src="./Assets1/product_08.jpg" alt="">
+                <figcaption>The Closet</figcaption>
             </figure>
             <figure class="card">
-              <img src="./Assets1/product_02.jpg" alt="">
-              <figcaption>Arimi</figcaption>
+                <img src="./Assets1/product_02.jpg" alt="">
+                <figcaption>Arimi</figcaption>
             </figure>
         </div>
     </div>
 
-    <footer>
+    <!-- <footer>
         <div class="footer">
             <div class="footer-1 foot">
                 <div>
@@ -769,11 +823,199 @@
                 </div>
             </div>
         </div>>
-    </footer>
+    </footer> -->
 
+    <footer >
+        <div class="website-wrapper" >
+            <footer class="footer-container ">
+                <!-- color-scheme-light -->
+                <div class="container main-footer">
+                    <aside class="footer-sidebar widget-area row" role="">
+                        <div class=" footer-column-1 col-md-12 col-sm-12">
+                            <!-- footer-column footer-column-1 col-md-12 col-sm-12"> -->
+                            <div id="text-2" class="footer-widget  widget_text">
+                                <div class="textwidget" >
+                                    <p style="text-align:center;">
+                                        <img src="./assets/doansh png.png"
+                                            alt="Doaansh" title="Doaansh" style="max-width:300px;" />
+                                    </p>
+                                    <ul style="background-color: transparent;"
+                                        class="social-icons text-center icons-design-default icons-size-default social-share ">
+                                        <li>
+                                            <a rel=""
+                                                href=""
+                                                target="_blank" class="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a rel=""
+                                                href="" target="_blank"
+                                                >
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel=""
+                                                href="" >
+                                                <i class="fa fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel=""
+                                                href="" >
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel=""
+                                                href=""  >
+                                                <i class="fa fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li >
+                                            <a rel="" href="" target="_blank" >
+                                                <i class="fa fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li class="social-tg">
+                                            <a rel=""
+                                                href="" target="_blank"
+                                                >
+                                                <i class="fa fa-telegram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-lg-block"></div>
+                        <div class="footer-column footer-column-2 col-md-2 col-sm-6">
+                            <div id="text-12" class="footer-widget  widget_text">
+                                <h5 class="widget-title">Company</h5>
+                                <div class="textwidget">
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="">Who we are</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Privacy Policy </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Terms &amp;Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column footer-column-3 col-md-2 col-sm-6">
+                            <div id="text-13" class="footer-widget  widget_text">
+                                <h5 class="widget-title">Service</h5>
+                                <div class="textwidget" >
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="#">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Track Order</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Return Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Exchange Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="footer-column footer-column-4 col-md-2 col-sm-6">
+                            <div id="text-14" class="footer-widget  widget_text">
+                                <h5 class="widget-title">links</h5>
+                                <div class="textwidget">
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="#">New Arrival</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Size Guide</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Latest News</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column footer-column-5 col-md-2 col-sm-6">
+                            <div id="text-15" class="footer-widget  widget_text">
+                                <h5 class="widget-title">Our Socials</h5>
+                                <div class="textwidget">
+                                    <ul class="menu" style="background-color: transparent; display: flex; flex-direction: column;">
+                                        <li>
+                                            <a href="">Instagram</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Facebook Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Twitter</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Pinterest</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column footer-column-6 col-md-4 col-sm-12" style="font-size: 16px;">
+                            <div id="text-16" class="footer-widget  widget_text">
+                                <h5 class="widget-title">About The Store</h5>
+                                <div class="textwidget">
+                                    <p>Doaansh is an online fashion store. Buy clothes and other accessories here online for
+                                        men and women. Choose from a wide range of original quirky designs. Free delivery,
+                                        Easy Return, Shop Now !!</p>
+                                    <div style="line-height: 2;">
+                                        <i class="fa fa-mobile"
+                                            style="width: 15px; text-align: center; margin-right: 4px; color: #f3eeee;"></i>
+                                        Phone &amp Whatsapp: (+91) 90000 00000<br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- .footer-sidebar -->
+                </div>
+                <div class="copyrights-wrapper copyrights-centered">
+                    <div class="container">
+                        <div class="min-footer">
+                            <div class="col-left">
+                                <p>
+                                    &copy;2023 <a href="">Doaansh</a>
+                                    . All rights reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </footer>
 
     <!-- <div style="height: 100vh;"></div> -->
 
     <script src="script.js"></script>
 </body>
+
 </html>

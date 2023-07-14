@@ -39,6 +39,7 @@ a{
     display: flex;
     list-style: none;
     color: #000;
+    gap: 15px;
 }
 
 .menu-bar ul li{
@@ -63,7 +64,7 @@ a{
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li{
-    width: 100px;
+    width: 70px;
     padding: 10px;
     border-bottom: 1px dotted #000;
     background: transparent;
@@ -84,7 +85,7 @@ a{
     position: absolute;
     background: white;
     top: 100%;
-    left: 20%;
+    left: 15%;
 }
 
 .sub-menu-2{
@@ -96,7 +97,8 @@ a{
     position: absolute;
     background: white;
     top: 100%;
-    right: 17%;
+    right: 15%;
+    text-align: left;
 }
 
 
@@ -107,7 +109,7 @@ a{
 }
 
 .menu-bar ul li:hover .sub-menu-2 ul li{
-    width: 100px;
+    width: 60px;
     padding: 10px;
     border-bottom: 1px dotted #000;
     background: transparent;
@@ -125,17 +127,21 @@ a{
 
 
 @media screen and (max-width: 1024px) {
+    .menu-bar ul{
+        gap: 0px;
+    }
+
     .menu-bar ul li{
         margin: 15px 10px;
         /* padding: 10px 10px; */
     }   
 
     .menu-bar ul li:hover .sub-menu-1{
-        left: 13%;
+        left: 12%;
     }
 
     .menu-bar ul li:hover .sub-menu-2{
-        right: 9%;
+        right: 12%;
     }
 
 }
@@ -148,13 +154,13 @@ a{
 }
 
 @media screen and (max-width: 834px) {
-    .menu-bar{
+    /* .menu-bar{
         gap: 2px;
-    }
-    .menu-bar ul li{
-        margin: 8px 4px;
+    } */
+    /* .menu-bar ul li{ */
+        /* margin: 8px 4px; */
         /* padding: 0px 5px; */
-    }   
+    /* }    */
 
     /* .menu-bar ul li:hover .sub-menu-1{
         left: 13%;
@@ -163,6 +169,34 @@ a{
     .menu-bar ul li:hover .sub-menu-2{
         right: 9%;
     } */
+    .nav-container{
+        position: relative;
+    }
+
+    .menu-bar{
+        position: absolute;
+        left: -100%;
+        height: auto;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .menu-bar-active{
+        left: 0;
+    }
+
+    .menu-bar ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu-bar ul li:hover .sub-menu-1{
+        display: none;
+    }
+
+    .menu-bar ul li:hover .sub-menu-2{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {

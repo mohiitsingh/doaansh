@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
  function autoSlide() {
     setInterval(() => {
        slide(getItemActiveIndex() + 1);
-    }, 3000); // slide speed = 3s
+    }, 7000); // slide speed = 3s
  }
  
  function slide(toIndex) {
@@ -106,7 +106,7 @@ productContainers.forEach((item, i) => {
 // const toggleButton = document.querySelector("#nav-toggle");
 // const navLinks = document.getElementById('nav-links');
 const toggleButton = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.menu-bar');
+const navLinks = document.querySelector('.nav-container');
 
 toggleButton.addEventListener('click',(e) => {
     e.preventDefault();

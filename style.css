@@ -115,7 +115,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* color: #2d2d2d; */
 }
 
 .hamburger{
@@ -123,26 +122,25 @@ nav{
     display: none;
 }
 
-.nav-1 {
+/* .nav-1 {
     font-size: 1.2rem;
     margin-left: 35px;
     display: flex;
-    /* background-color: red; */
     align-items: center;
+} */
+
+.nav-2{
+    margin-left: 5rem;
 }
 
-
-
 .nav-2 img{
-    width: 120px;
-    height: 130px;
+    width: 150px;
 }
 
 .nav-3{
-    /* background-color: red; */
     display: flex;
     gap: 19px;
-    margin-right: 35px;
+    margin-right: 5rem;
 }
 
 
@@ -234,8 +232,8 @@ nav{
     }
 
     .nav-2 img{
-        width: 90px;
-        height: 110px;
+        /* width: 90px; */
+        /* height: 110px; */
     }
 
     .search sup{
@@ -244,6 +242,18 @@ nav{
 }
 
 @media screen and (max-width: 425px) {
+    .nav-2{
+        margin-left: 15px;
+    }
+
+    .nav-2 img{
+        margin-top: 1rem;
+    }
+
+    .nav-3{
+        margin-right: 15px;
+    }
+
     .top{
         bottom: 3%;
         right: 1%;
@@ -266,15 +276,9 @@ nav{
         display: none;
     }
 
-    .nav-2 img{
-        /* width: 60px; */
-        /* height: 70px; */
+    .nav-3{
+        gap: 10px;
     }
-
-    /* .search sup{
-        display: none;
-    } */
-
     
 
     .image-grid {
@@ -293,12 +297,5 @@ nav{
 
     .gallery{
         grid-template-columns: 1fr;
-    }
-}
-
-
-@media screen and (max-width: 360px) {
-    .nav-3{
-        gap: 10px;
     }
 }
