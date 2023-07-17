@@ -115,8 +115,12 @@ nav {
 
 /* ***************************** BANNER 2 ********************888 */
 .banner2 {
-    /* margin: 0.8rem 0; */
+    width: 100% ;
     cursor: pointer;
+}
+
+.banner2 img{
+    width: 100%;
 }
 
 
@@ -197,10 +201,17 @@ nav {
 }
 
 
+
+
 /* ************************ GALLERY****************************** */
 .gallery {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.gallery div img{
+    width: 100%;
 }
 
 @media screen and (max-width: 834px) {
