@@ -19,12 +19,14 @@ html {
     position: absolute  ;
     display: flex;
     justify-content: center;
-    right: 15%;
-    /* top: 5%; */
+    right: 17%;
+    top: 22%;
+    transition: 0.2s ease-in-out;
 }
 
 .open{
     display: none;
+    /* top: 22%; */
 }
 
 .input_container input{
@@ -47,3 +49,43 @@ html {
     place-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .input_container{
+        right: 22%;
+    }
+}
+
+
+@media screen and (max-width: 834px) {
+    .input_container{
+        right: 29%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .input_container{
+        right: 0;
+        top: 70%;
+        left: 0;
+    }
+
+    .input_container input{
+        /* width: 180px; */
+        height: 28px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .search_icon{
+        font-size: 0.8rem;
+    }
+
+    .input_container{
+        top: 72%;
+    }
+
+    .input_container input{
+        height: 25px;
+    }
+}
