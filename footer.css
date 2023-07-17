@@ -1,144 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-footer li {
-    list-style: none;
-    font-weight: normal;
-    font-size: 1rem;
-    transition: 0.3s ease-in-out;
-    margin-top: 3px;
+ul, li{
+    list-style: none    ;
 }
 
-footer li:hover {
-    transform: translateY(-2px);
-    color: rgb(46, 46, 46);
+a{
+    text-decoration: none;
+    color: black;
 }
 
-footer li a:hover{
-    border-bottom: 0.2px solid black;
-}
 
-footer {
-    /* color: white; */
+.footer-container{
     background-color: whitesmoke;
-    /* background-color: red; */
-    padding-top: 2rem;
-}
-
-.footer {
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem 0;
-    /* background-color: red; */
-}
-
-.footer-heading {
-    font-size: 1.2rem;
-    font-weight: normal;
-}
-
-.foot {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    gap: 10px;
+    gap: 5rem;
+    padding: 1rem 0;
 }
 
-.foot-logo {
+.footer-up-section{
     display: flex;
-    gap: 20px;
-}
-
-.foot-payment-logo {
-    display: flex;
-    gap: 2px;
-}
-
-.footer-1 {
-    width: 23%;
-    height: auto;
-    /* background-color: rgb(119, 255, 0); */
-}
-
-.footer-2 {
-    width: 23%;
-    height: auto;
-    /* background-color: rgb(8, 0, 255); */
-}
-
-.footer-3 {
-    width: 23%;
-    height: auto;
-    /* background-color: red; */
-}
-
-.footer-4 {
-    width: 23%;
-    height: auto;
-    /* background-color: rgb(238, 255, 0); */
-}
-
-.footer-last {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
 
-.footer-last div p {
+.footer-img-div{
+    width: 350px;
+    height: 150px;
+}
+
+.footer-img-div img{
+    width: 100%;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-icons li a{
+    font-size: 1.2rem;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.footer-icons li a:hover{
+    color: #08817962;
+}
+
+.footer-down-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-1{
+    width: 21%;
+}
+
+.footer-2{
+    width: 21%;
+}
+
+.footer-3{
+    width: 21%;
+}
+
+.footer-4{
+    width: 27%;
+}
+
+.widget-title{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+.menu li{
+    margin-top: 0.5rem;
+}
+
+.menu li a{
+    color: black;
+    font-size: 0.9rem;
+}
+
+.menu li a:hover{
+    border-bottom: 0.1px solid black;
+}
+
+.textwidget p{
+    font-size: 0.9rem;
+}
+
+.mobile{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.copyright-section{
+    text-align: center;
     font-size: 1rem;
 }
 
-.footer-last div p span {
-    font-weight: 500;
+.copyright-section a{
+    font-weight: 600;
 }
 
-.foot-icon {
-    display: flex;
-    gap: 10px;
+@media screen and (max-width: 1024px) {
+    .menu li{
+        margin-top: 0.9rem;
+    }
+
+    .textwidget p{
+        margin-top: 0.9rem;
+    }
+
 }
 
-@media screen and (max-width: 850px) {
-    .footer-heading {
-        font-size: 1rem;
-    }
 
-    .footer li {
-        font-size: 0.8rem;
+@media screen and (max-width: 834px) {
+    .menu li{
+        margin-top: 1.2rem;
+    }
+    .textwidget p{
+        margin-top: 1.2rem;
     }
 }
 
-@media screen and (max-width: 425px) {
-
-    .footer-heading {
-        font-size: 1.2rem;
-        /* text-align: center; */
+@media screen and (max-width: 600px) {
+    .footer-container{
+        gap: 30px;
     }
 
-    .footer{
+    .footer-img-div{
+        width: 320px;
+        height: 150px;
+    }
+
+    .footer-down-section{
         flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        padding: 0;
+        margin-left: 2rem;
     }
 
-    footer li {
-        font-size: 1rem;
-        /* color: red; */
+    .footer-icons{
+        gap: 30px;
     }
-
-    .foot{
+    
+    .footer-1{
         width: 80%;
     }
 
-    .footer-last{
+    .footer-2{
+        width: 80%;
+    }
+
+    .footer-3{
+        width: 80%;
+    }
+    
+    .footer-4{
+        width: 93%;
+        /* background-color: rebeccapurple; */
+    }
+
+    .widget-title{
         margin-top: 1rem;
-        flex-direction: column;
-        gap: 10px;
+        font-size: 1.2rem;
+    }
+
+    .menu li{
+        margin-top: 0.5rem;
+    }
+    .textwidget p{
+        margin-top: 0.5rem;
     }
 
 }

@@ -9,11 +9,7 @@
 
 
   .wrapper1{
-    /* margin-top: 2; */
-    /* background-color: red; */
-    /* padding: 2rem 0; */
     width: 90%;
-    /* background-color: rebeccapurple; */
     margin: 0 auto;
   }
   
@@ -45,7 +41,7 @@
     
     width:100%;
     height:100%;
-    filter: grayscale(50%);
+    /* filter: grayscale(50%); */
     box-shadow: 0 0 20px #333;
     object-fit: cover;
   }
@@ -57,9 +53,9 @@
   }
   
   
-  .card:hover img {
+  /* .card:hover img {
     filter: grayscale(0%);
-  }
+  } */
   
   .card figcaption{
     position: absolute;
