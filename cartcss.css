@@ -209,11 +209,11 @@ p {
     }
 
     .container1{
-        width: 90%;
+        width: 95%;
     }
 
     .container2{
-        width: 90%;
+        width: 95%;
     }
 
     .container3{
@@ -229,6 +229,10 @@ p {
         overflow-x: hidden;
     }
 
+    .desc p{
+        font-size: 0.8rem;
+    }
+
     .container1{
         /* background-color: red; */
         /* padding: 0 0 0 2rem; */
@@ -240,4 +244,10 @@ p {
         padding: 1.5rem;
     }
 
+}
+
+@media screen and (max-width: 375px) {
+    .desc p{
+        font-size: 0.7rem;
+    }
 }
