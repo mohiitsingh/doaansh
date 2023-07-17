@@ -90,6 +90,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: red; */
 }
 
 .hamburger {
@@ -102,8 +103,8 @@ nav {
 }
 
 .nav-2 img {
-    width: 200px;
-    margin-top: 1.2rem;
+    width: 250px;
+    margin-top: 1.9rem;
 }
 
 .nav-3 {
@@ -229,6 +230,11 @@ nav {
         margin-left: 15px;
         display: block;
     }
+
+    .nav-2 img{
+        width: 170px;
+    }
+
 }
 
 

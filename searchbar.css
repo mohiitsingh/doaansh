@@ -65,13 +65,13 @@ html {
 @media screen and (max-width: 600px) {
     .input_container{
         right: 0;
-        top: 70%;
+        top: 73%;
         left: 0;
     }
 
     .input_container input{
         /* width: 180px; */
-        height: 28px;
+        height: 24px;
         width: 90%;
     }
 }
