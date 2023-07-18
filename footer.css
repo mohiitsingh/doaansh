@@ -19,7 +19,8 @@ a{
 
 .footer-container{
     /* background-color: whitesmoke; */
-    background-color: #b7e4c7;
+    /* background-color: #b7e4c7; */
+    background-color: #C4FCEF;
     display: flex;
     flex-direction: column;
     gap: 2rem;
