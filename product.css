@@ -45,12 +45,15 @@
     width: 70%;
     height: 250px;
     overflow: hidden;
+    /* background-color: rebeccapurple; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   .product-thumb {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   }
   
   .product-info {
@@ -99,7 +102,7 @@
     /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%); */
     background: rgba(245, 245, 245, 0.156);
     cursor: pointer;
-    z-index: 8;
+    /* z-index: 8; */
   }
   
   .pre-btn {
@@ -168,9 +171,19 @@
       /* background-color: red; */
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .product-container{
+      padding: 0 3vw;
+    }
+  }
   
 
   @media screen and (max-width: 425px) {
+    .product-container{
+      padding: 0 15vw;
+    }
+
     .product-category {
       text-align: center;
       font-size: 1.5rem;

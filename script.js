@@ -81,6 +81,5 @@ const open = document.querySelector('.input_container');
 
 search.addEventListener('click',(e) => {
    e.preventDefault();
-   console.log("oadfbject");
    open.classList.toggle('open');
 }) 

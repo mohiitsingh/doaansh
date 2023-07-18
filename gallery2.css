@@ -34,7 +34,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #222;
-    background-blend-mode: hard-light;
+    background-blend-mode: hard-light;  
     transition: all 0.8s ease-in-out;
 }
 

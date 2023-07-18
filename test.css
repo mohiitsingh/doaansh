@@ -21,7 +21,8 @@ ul , li{
 }
 
 .nav-ul{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: #87CBB9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +46,7 @@ ul , li{
 
 .nav-container ul li ul.dropdown{
     width: 100%;
-    background: whitesmoke;
+    background: #87CBB9;;
     position: absolute;
     z-index: 200;
     display: none;
@@ -88,6 +89,11 @@ ul , li{
         gap: 0;
         justify-content: normal;
         align-items: normal;
+        /* background-color: #87CBB9; */
+    }
+
+    .nav-container ul li ul.dropdown{
+        background: whitesmoke;
     }
 
     .nav-container{
@@ -96,6 +102,7 @@ ul , li{
         /* left: 0; */
         height: auto;
         width: 100%;
+        background-color: whitesmoke;
         border-radius: 0 0 20px 20px;
     }
 
@@ -106,6 +113,10 @@ ul , li{
     .nav-container ul li a{
         padding: 10px 10px;
         font-size: 15px;
+    }
+
+    .nav-container ul li a:hover{
+        background-color: whitesmoke;
     }
 
 }

@@ -56,7 +56,7 @@ input::placeholder{
 .icon-relative .fas,
 .icon-relative .far{
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 15px;
   font-size: 15px;
   color: #555555;
