@@ -83,3 +83,9 @@ search.addEventListener('click',(e) => {
    e.preventDefault();
    open.classList.toggle('open');
 }) 
+
+
+// ========================== top ====================
+window.addEventListener('scroll',() => {
+   document.querySelector('.top').classList.toggle('window-scroll',window.scrollY > 500)
+})
