@@ -164,8 +164,8 @@
 
 @media screen and (max-width: 425px) {
    .carousel_button {
-      padding: 0px 15px;
-      font-size: 13px;
+      padding: 0px 10px;
+      font-size: 12px;
    }
 
    .carousel_button span i {
