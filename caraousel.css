@@ -117,23 +117,19 @@
 }
 
 .carousel_button:hover {
-   /* background-color: whitesmoke; */
-   /* color: black; */
-   /* background-color: black; */
    background-color: #87CBB9;
    color: white;
+   font-weight: bold;
 }
 
 
 .carousel_button span i {
-   color: black;
    font-size: 18px;
    padding: 10px;
+   font-weight: bold;
 }
 
-.carousel_button:hover span i {
-   color: white;
-}
+
 
 
 @media screen and (max-width: 1024px) {
