@@ -117,6 +117,7 @@ a{
     border-top: 1px solid black;
     text-align: center;
     font-size: 1rem;
+    padding-top: 1rem;
 }
 
 .copyright-section a{

@@ -108,7 +108,7 @@ form.sign-up-form {
     color: #fff;
     font-weight: 600;
     margin: 10px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
 }
 .btn:hover {

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doaansh | Mobile-cover</title>
+    <link rel="stylesheet" href="mobileCover.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" name="" id="search-input" placeholder="Search product name here....">
+            <button id="search">Search</button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterProduct('all')">All</button>
+            <button class="button-value" onclick="filterProduct('Iphone')">Iphone</button>
+            <button class="button-value" onclick="filterProduct('Realme')">Realme</button>
+            <button class="button-value" onclick="filterProduct('Samsung')">Samsung</button>
+            <button class="button-value" onclick="filterProduct('Oneplus')">Oneplus</button>
+            <!-- <img src="./icon/Oneplus1.jpg" alt=""> -->
+        </div>
+        <div id="products"></div>
+    </div>
+    
+    <script src="mobileCover.js"></script>
+</body>
+</html>

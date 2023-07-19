@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.wrapper{
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color: whitesmoke;
+}
+
+
+#search-container{
+    /* margin: 1em 0; */
+    /* background-color: rebeccapurple; */
+    /* margin: 0 auto; */
+    padding: 1em 0;
+}
+
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+    margin-left: 25rem;
+}
+
+#search-container input:focus{
+    border-bottom-color: #87CBB9;;
+}
+
+#search-container button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #87CBB9;;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 0.5em;
+}
+
+#search-container button:hover{
+    border: 0.1px solid #87CBB9;;
+    color: black;
+    background-color: transparent;
+}
+
+#buttons{
+    margin-left: 28rem;
+}
+
+.button-value{
+    /* background-color: #6759ff; */
+    border: 2px solid #87CBB9;;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #87CBB9;;
+    color: #ffffff;
+}
+
+#products{
+    display: grid;
+    margin-left: 1rem;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+    gap: 2rem;
+}
+
+.card{
+    /* background-color: #ffffff; */
+    background-color: whitesmoke;
+    max-width: 18em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+
+.image-container{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+}
+
+.container{
+    padding-top: 1em;
+    color: #110f29;
+}
+
+.container h5{
+    font-weight: 500;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    img{
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    }
+
+    .card{
+        max-width: 10em ;
+        margin-top: 1em;
+    }
+
+    #products{
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 1em;
+    }
+
+}
