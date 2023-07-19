@@ -47,7 +47,7 @@ ul , li{
 
 .nav-container ul li ul.dropdown{
     width: 100%;
-    background: #87CBB9;;
+    background: #87CBB9;
     position: absolute;
     z-index: 200;
     display: none;
