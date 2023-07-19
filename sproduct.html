@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doaansh | Product</title>
+    <title>Doaansh | Product Details</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,14 +15,14 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="test.css">
-    <!-- <link rel="stylesheet" href="caraousel.css"> -->
+    
+    <link rel="stylesheet" href="gallery2.css">
     <link rel="stylesheet" href="product.css">
-    <!-- <link rel="stylesheet" href="gallery2.css"> -->
-    <!-- <link rel="stylesheet" href="gallery3.css"> -->
     <link rel="stylesheet" href="sproduct.css">
     <link rel="stylesheet" href="sproduct2.css">
-    <!-- <link rel="stylesheet" href="style2.css"> -->
     <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="searchbar.css">
 
 
 
@@ -49,43 +49,36 @@
             </div>
             <div class="nav-3">
                 <div class="search">
-                    <a href="">
-                        <!-- <img src="./icon/magnifying-glass-solid.svg" alt="" width="20px" height="20px"> -->
-                        <i class="fas fa-search" style="color: black;"></i>
-                    </a>
-                    <!-- <sup>Search</sup> -->
+                    <a href="" id="searchBtn"><i class="fas fa-search"></i></a>
+                    <div class="input_container">
+                        <div class="search_icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input type="text" id="searchInput" placeholder="Search Products....">
+                    </div>
                 </div>
 
 
                 <div>
-                    <a href="">
-                        <!-- <img src="./icon/heart-regular.svg" alt="" width="20px" height="20px"> -->
-                        <i class="fas fa-heart" style="color: black;"></i>
-                    </a>
+                    <a href=""><i class="fas fa-heart"></i></a>
                 </div>
 
 
                 <div>
-                    <a href="">
-                        <!-- <img src="./icon/user-regular.svg" alt="" width="20px" height="20px"> -->
-                        <i class="fas fa-user" style="color: black;"></i>
-                    </a>
+                    <a href=""><i class="fas fa-user"></i></a>
                 </div>
 
 
                 <div>
-                    <a href="">
-                        <!-- <img src="./icon/cart-shopping-solid.svg" alt="" width="20px" height="20px"> -->
-                        <i class="fas fa-shopping-cart" style="color: black;"></i>
-                    </a>
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
         </div>
         <div class="nav-container">
             <ul class="nav-ul">
-                <li><a href="">New In</a></li>
+                <li><a onclick="window.location.href='index.html';">Home</a></li>
                 <li>
-                    <a href="">Clothing <img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
+                    <a href="">Collections<img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
                     <ul class="dropdown">
                         <li><a href="">HTML</a></li>
                         <li><a href="">css</a></li>
@@ -95,20 +88,22 @@
                 <li><a href="">Top</a></li>
                 <li><a href="">Dresses</a></li>
                 <li>
-                    <a href="">Partywear <img src="./icon/arrow.png" alt="" width="6px" class="icon"></a>
-                    <ul class="dropdown">
+                    <a href="">Product</a>
+                    <!-- <img src="./icon/arrow.png" alt="" width="6px" class="icon"> -->
+                    <!-- <ul class="dropdown">
                         <li><a href="">HTML</a></li>
                         <li><a href="">css</a></li>
                         <li><a href="">JS</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li><a href="">Collections</a></li>
                 <li><a href="">Sale</a></li>
-                <li><a href="">Shirt</a></li>
-                <li><a href="">Skirt</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a onclick="window.location.href='contactUs.html';">Contact Us</a></li>
                 <li><a href="">Services</a></li>
             </ul>
         </div>
+
     </nav>
 
     <section id="prodetails">
